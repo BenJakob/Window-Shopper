@@ -43,6 +43,8 @@ class MainViewController: UIViewController {
         resultLabel.text = String(Wage.getHours(forWage: wage, andPrice: price))
         resultLabel.isHidden = false
         hoursLabel.isHidden = false
+        
+        dismissKeyboard()
     }
     
     @IBAction func clearCalculatorPressed(_ sender: Any) {

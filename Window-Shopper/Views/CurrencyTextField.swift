@@ -32,7 +32,7 @@ class CurrencyTextField: UITextField {
         
         let currencyLabel: UILabel = {
             let label = UILabel()
-            label.backgroundColor = .lightGray
+            label.backgroundColor = .white
             label.textAlignment = .center
             label.textColor = .gray
             label.layer.cornerRadius = 5.0
